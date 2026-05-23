@@ -30,12 +30,12 @@ function App() {
 				>
 					Count is {count}
 				</button>
-			</section>
 
-			<div>
-				Item is
-				<ItemDetails />
-			</div>
+				<div>
+					Item is
+					<ItemDetails />
+				</div>
+			</section>
 
 			<div className="ticks"></div>
 
