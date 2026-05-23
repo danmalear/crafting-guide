@@ -1,9 +1,10 @@
-import { randomUUID } from 'crypto';
+import type { UUID } from 'crypto';
 import React from 'react';
+import { v7 } from 'uuid';
 import type { Item } from './Item.ts';
 
 const testItem: Item = {
-	id: randomUUID(),
+	id: v7() as UUID,
 	name: 'Test Item',
 	value: 5,
 	weight: 1,
